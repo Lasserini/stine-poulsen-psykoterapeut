@@ -8,6 +8,8 @@
     border: 0;
 }
 
+
 body {
+    background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
 }
