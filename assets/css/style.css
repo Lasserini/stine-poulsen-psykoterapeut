@@ -1,0 +1,13 @@
+/* Import from Google Fonts. Oswald for headings, Roboto for paragrahps */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+/* Margin, padding and border defauls changed to 0 as defaults */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
