@@ -1,15 +1,29 @@
 /* Import from Google Fonts. Oswald for headings, Roboto for paragrahps */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
-/* Margin, padding and border defauls changed to 0 as defaults */
+/* Margin, padding and border defauls changed to 0 and none as defaults */
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
-
+/* Body styling, scaleable background image etc */
 body {
     background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
+    color: #3a3a3a
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
 }
