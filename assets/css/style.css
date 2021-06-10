@@ -11,7 +11,7 @@
 /* Body styling, scaleable background image etc
 -> Background image backup  background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed; */
 body {
-    background: #0d700d;
+    background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a
@@ -23,6 +23,11 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #252525
+}
+
+i {
+    color: inherit;
+    font-size: inherit;
 }
 
 /* Header styling */
@@ -132,14 +137,13 @@ header {
     }
 }
 
-
-/* About Me Box Styling */
+/* Content Box Styling */
 .about_me_box {
     width: 80vw;
     max-width: 900px;
     margin: auto;
     margin-top: 5vh;
-    height: 320px;
+    height: 280px;
     background-color: #ffffff;
 }
 
@@ -151,30 +155,59 @@ header {
 
 #welcome_about_me {
     display: inline-block;
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 #welcome_about_me h1 {
-    position: relative;
-    bottom: -5px;
+    padding: 5px 0;
 }
 
 #welcome_about_me li{
     list-style: square;
-    line-height: 160%;
+    line-height: 150%;
+    font-size: 16px;
 }
 
-/* Responsive Styling for Content Boxes */
+a {
+    color: #ffffff;
+}
 
-@media screen and (max-width: 640px) {
+#welcome_about_me a, .left_side_box a, .right_side_box a {
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 6px;
+    background-color: #252525;
+    margin: 10px auto;
+    display: table;
+}
+
+#welcome_about_me a:hover, .left_side_box a:hover, .right_side_box a:hover {
+    background-color: #0d700d;
+}
+
+.left_side_box, .right_side_box {
+    background-color: #ffffff;
+}
+
+
+/* Responsive Styling for Content Boxes */
+@media screen and (max-width: 800px) {
+    body {
+    background: #0d700d;
+    }
+
     .about_me_box {
         width: 100%;
         height: auto;
+        margin-top: 10px;
     }
 
     .about_me_box img {
         display: none;
     }
+
     #welcome_about_me {
         width: 100%;
     }
