@@ -159,12 +159,22 @@ header {
     padding-right: 10px;
 }
 
-#welcome_about_me h1 {
+#welcome_about_me h1, .left_side_box h1, .right_side_box h1 {
     padding: 5px 0;
+}
+
+.left_side_box h1 {
+    color: #ffffff;
 }
 
 #welcome_about_me li{
     list-style: square;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+.left_side_box li, .right_side_box li{
+    list-style: none;
     line-height: 150%;
     font-size: 16px;
 }
@@ -188,7 +198,25 @@ a {
 }
 
 .left_side_box, .right_side_box {
+    width: 40vw;
+    max-width: 450px;
+    display: inline-block;
+    text-align: center;
+    border-top: 5px solid #252525;
+    border-bottom: 5px solid #252525;
+}
+
+.left_side_box {
+    background-color: #3b1304;
+    position: absolute;
+    right: 50vw;
+    color: #ffffff;
+}
+
+.right_side_box {
     background-color: #ffffff;
+    position: absolute;
+    left: 50vw;
 }
 
 
