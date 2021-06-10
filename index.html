@@ -12,6 +12,7 @@
 </head>
 <body>
     <header>
+        <!-- The Logo -->
         <a href="index.html">
             <img src="assets/images/logo_photo.jpg" id="logo_photo" alt="Small logo photo of Stine Poulsen">
             <span id="logo">
@@ -19,8 +20,17 @@
                 <p>Certified Psychotherapist</p>
             </span>
         </a>
+
+        <!-- 
+        The Navigation Menu
+        Inspiration for creating a responsive drop down menu from various sites, general concept learnt from: 
+        https://www.markuptag.com/responsive-navbar-with-html-css-without-bootstrap/
+        -->
         <span id="menu">
-            <nav>
+            <input type="checkbox" id="small_screen_nav">
+                    <label for="small_screen_nav" id="small_screen_toggle"><i class="fas fa-bars"></i></label>
+
+            <nav id="nav_menu">
                 <ul>
                     <li class="header_nav">
                         <a href="index.html" class="active">Welcome</a>
@@ -40,9 +50,7 @@
                     <li class="header_nav">
                         <a href="#">Contact</a>
                     </li>
-                    <li id="small_screen_nav">
-                        <i class="fas fa-bars"></i>
-                    </li>
+                    <label for="small_screen_nav" id="small_screen_hide"><i class="fas fa-times"></i></label>
                 </ul>
             </nav>
         </span>
