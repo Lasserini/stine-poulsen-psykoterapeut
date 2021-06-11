@@ -101,6 +101,11 @@ header {
     display: none;
 }
 
+#small_screen_toggle:hover, #small_screen_hide:hover {
+    color: #0d700d;
+    font-size: 120%;
+}
+
 /* Responsive Header Styling */
 @media screen and (max-width: 940px){
     .header_nav {
@@ -225,7 +230,6 @@ a {
     position: absolute;
     left: 50vw;
 }
-
 
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
