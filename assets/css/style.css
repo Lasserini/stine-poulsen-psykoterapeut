@@ -11,7 +11,7 @@
 /* Body styling, scaleable background image etc
 -> Background image backup  background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed; */
 body {
-    background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
+    background: #63240d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a
@@ -193,8 +193,12 @@ a {
     display: table;
 }
 
-#welcome_about_me a:hover, .left_side_box a:hover, .right_side_box a:hover {
+#welcome_about_me a:hover, .right_side_box a:hover {
     background-color: #0d700d;
+}
+
+.left_side_box a:hover {
+    background-color: #3b1304;
 }
 
 .left_side_box, .right_side_box {
@@ -203,11 +207,11 @@ a {
     display: inline-block;
     text-align: center;
     border-top: 5px solid #252525;
-    border-bottom: 5px solid #252525;
 }
 
 .left_side_box {
-    background-color: #3b1304;
+    background-color: #0d700d;
+    
     position: absolute;
     right: 50vw;
     color: #ffffff;
@@ -229,7 +233,8 @@ a {
     .about_me_box {
         width: 100%;
         height: auto;
-        margin-top: 10px;
+        margin-top: 0;
+        border-top: 5px solid #252525;
     }
 
     .about_me_box img {
@@ -238,5 +243,12 @@ a {
 
     #welcome_about_me {
         width: 100%;
+    }
+
+    .left_side_box, .right_side_box {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: unset;
     }
 }
