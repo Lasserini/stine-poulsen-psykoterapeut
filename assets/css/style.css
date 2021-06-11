@@ -8,10 +8,9 @@
     border: none;
 }
 
-/* Body styling, scaleable background image etc
--> Background image backup  background: #0d700d url(..//images/background_image.jpg) center center / cover no-repeat fixed; */
+/* Body styling, general rules, scaleable background image etc */
 body {
-    background: #63240d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
+    background: #6d260d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a
@@ -29,6 +28,11 @@ i {
     color: inherit;
     font-size: inherit;
     padding-left: 5px;
+}
+
+li i {
+    color: #0d700d;
+    padding-right: 5px;
 }
 
 /* Header styling */
@@ -156,8 +160,6 @@ header {
 
 #welcome_about_me {
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 10px;
 }
 
 #welcome_about_me h1, .left_side_box h1, .right_side_box h1 {
@@ -169,7 +171,7 @@ header {
 }
 
 #welcome_about_me li{
-    list-style: square;
+    list-style: none;
     line-height: 150%;
     font-size: 16px;
 }
@@ -199,7 +201,7 @@ a {
 }
 
 .left_side_box a:hover {
-    background-color: #3b1304;
+    background-color: #6d260d;
 }
 
 .left_side_box, .right_side_box {
@@ -234,8 +236,9 @@ a {
     .about_me_box {
         width: 100%;
         height: auto;
-        margin-top: 0;
+        margin: 0;
         border-top: 5px solid #252525;
+        text-align: center;
     }
 
     .about_me_box img {
@@ -247,7 +250,6 @@ a {
     }
 
     .left_side_box, .right_side_box {
-        width: 100%;
         min-width: 100%;
         height: auto;
         position: unset;
