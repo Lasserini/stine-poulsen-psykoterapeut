@@ -109,12 +109,12 @@ header {
 /* Responsive Header Styling */
 @media screen and (max-width: 940px){
     .header_nav {
-        font-size: 14px;
-        margin-right: 25px;
+        font-size: 13px;
+        margin-right: 20px;
     }
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 800px){
     #small_screen_nav {
         position: absolute;
         top: 32px;
@@ -140,6 +140,7 @@ header {
     #nav_menu li {
         width: 100%;
         text-align: center;
+        font-size: 16px;
     }
 
     #small_screen_nav:checked ~ #nav_menu {
