@@ -172,6 +172,10 @@ header {
     padding: 5px 0;
 }
 
+#welcome_about_me h1 {
+    padding-left: 25px;
+}
+
 .left_side_box h1 {
     color: #ffffff;
 }
@@ -216,6 +220,7 @@ a {
     display: inline-block;
     text-align: center;
     border-top: 5px solid #252525;
+    padding: 10px 0;
 }
 
 .left_side_box {
@@ -252,6 +257,10 @@ a {
 
     #welcome_about_me {
         width: 100%;
+    }
+
+    #welcome_about_me h1 {
+        padding-left: 0;
     }
 
     .left_side_box, .right_side_box {
