@@ -176,7 +176,7 @@ header {
     padding-left: 25px;
 }
 
-.left_side_box h1 {
+.green_color_box h1 {
     color: #ffffff;
 }
 
@@ -206,17 +206,22 @@ a {
     display: table;
 }
 
-#welcome_about_me a:hover, .right_side_box a:hover {
+#welcome_about_me a:hover, .white_color_box a:hover {
     background-color: #0d700d;
 }
 
-.left_side_box a:hover {
+.green_color_box a:hover {
     background-color: #6d260d;
 }
 
+.box_row {
+    width: 80vw;
+    max-width: 900px;
+    margin: auto;
+}
+
 .left_side_box, .right_side_box {
-    width: 40vw;
-    max-width: 450px;
+    width: 50%;
     display: inline-block;
     text-align: center;
     border-top: 5px solid #252525;
@@ -224,17 +229,20 @@ a {
 }
 
 .left_side_box {
-    background-color: #0d700d;
-    
-    position: absolute;
-    right: 50vw;
-    color: #ffffff;
+    float: left;
 }
 
 .right_side_box {
+    float: right;
+}
+
+.green_color_box {
+    background-color: #0d700d;
+    color: #ffffff;
+}
+
+.white_color_box {
     background-color: #ffffff;
-    position: absolute;
-    left: 50vw;
 }
 
 /* Responsive Styling for Content Boxes */
@@ -261,6 +269,10 @@ a {
 
     #welcome_about_me h1 {
         padding-left: 0;
+    }
+
+    .box_row {
+        width: 100%;
     }
 
     .left_side_box, .right_side_box {
