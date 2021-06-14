@@ -152,9 +152,9 @@ header {
 .about_me_box {
     width: 80vw;
     max-width: 900px;
+    height: auto;
     margin: auto;
     margin-top: 5vh;
-    height: 280px;
     background-color: #ffffff;
 }
 
@@ -180,17 +180,13 @@ header {
     color: #ffffff;
 }
 
-#welcome_about_me li{
+#welcome_about_me li, .left_side_box li, .right_side_box li{
     list-style: none;
     line-height: 150%;
     font-size: 16px;
+    padding: 0 10px;
 }
 
-.left_side_box li, .right_side_box li{
-    list-style: none;
-    line-height: 150%;
-    font-size: 16px;
-}
 
 a {
     color: #ffffff;
@@ -222,7 +218,6 @@ a {
 
 .left_side_box, .right_side_box {
     width: 50%;
-    display: inline-block;
     text-align: center;
     border-top: 5px solid #252525;
     padding: 10px 0;
@@ -283,14 +278,12 @@ a {
 }
 
 /* Footer Styling */
-
 footer {
-    position: fixed;
-    bottom: 0;
     background-color: #492500;
-    width: 100%;
+    width: 100vw;
     height: 80px;
 }
+
 
 footer, footer h1, #footer_left p {
     color: #ffffff;
