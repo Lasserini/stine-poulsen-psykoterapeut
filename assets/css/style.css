@@ -151,7 +151,7 @@ header {
 /* Content Box Styling */
 .about_me_box {
     width: 80vw;
-    max-width: 900px;
+    max-width: 1000px;
     height: auto;
     margin: auto;
     margin-top: 5vh;
@@ -212,7 +212,7 @@ a {
 
 .box_row {
     width: 80vw;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -279,11 +279,12 @@ a {
 
 /* Footer Styling */
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: #492500;
     width: 100vw;
     height: 80px;
 }
-
 
 footer, footer h1, #footer_left p {
     color: #ffffff;
