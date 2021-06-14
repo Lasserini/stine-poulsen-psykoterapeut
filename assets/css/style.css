@@ -42,20 +42,20 @@ header {
     height: 80px;
 }
 
-#logo_photo {
+.logo_photo {
     margin: 3px 1% 3px 1%;
     border-radius: 50%;
     float: left;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#logo p {
+.logo p {
     text-decoration: none;
     color:#3a3a3a;
 }
