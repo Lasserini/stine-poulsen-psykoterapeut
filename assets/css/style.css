@@ -10,7 +10,7 @@
 
 /* Body styling, general rules, scaleable background image etc */
 body {
-    background: #6d260d url(..//images/background_image.jpg) center center / cover no-repeat fixed;
+    background: #492500 url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a
@@ -211,7 +211,7 @@ a {
 }
 
 .green_color_box a:hover {
-    background-color: #6d260d;
+    background-color: #492500;
 }
 
 .box_row {
@@ -280,4 +280,42 @@ a {
         height: auto;
         position: unset;
     }
+}
+
+/* Footer Styling */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #492500;
+    width: 100%;
+    height: 80px;
+}
+
+footer, footer h1, #footer_left p {
+    color: #ffffff;
+}
+
+footer li {
+    list-style: none;
+}
+
+#footer_left {
+    float: left;
+    width: 33%;
+}
+
+#footer_right {
+    float: right;
+    width: 33%;
+    text-align: right;
+}
+
+#footer_ center {
+    width: 33%;
+    margin: auto;
+}
+
+#footer_center p {
+    text-align: center;
 }
