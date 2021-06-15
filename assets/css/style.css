@@ -14,11 +14,15 @@
 New Green: #0f352d;
 New footer Brown: #35251a;
 
+Old Green: #0d700d;
+Old Brown: #492500;
+
+For now checkmarks & hover are left at old green
 */
 
 /* Body styling, general rules, scaleable background image etc */
 body {
-    background: #492500 url(..//images/background_image.jpg) center center / cover no-repeat fixed;
+    background: #35251a url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a
@@ -221,7 +225,7 @@ a {
 }
 
 .green_color_box a:hover {
-    background-color: #492500;
+    background-color: #0d700d;
 }
 
 .box_row, .top_box_row {
@@ -233,7 +237,7 @@ a {
 
 .top_box_row {
     margin-top: 5vh;
-    background: #0d700d;
+    background: #0f352d;
     overflow: hidden;
 }
 
@@ -256,7 +260,7 @@ a {
 }
 
 .green_color_box {
-    background-color: #0d700d;
+    background-color: #0f352d;
     color: #ffffff;
 }
 
@@ -286,7 +290,7 @@ a {
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
     body {
-    background: #492500;
+    background: #35251a;
     }
 
     .about_me_box {
@@ -343,32 +347,30 @@ a {
     max-width: 1000px;
     margin: auto;
     color: #ffffff;
+    text-align: center;
+    font-size: 14px;
 }
 
 #footer_left {
-    background-color: #492500;
+    background-color: #35251a;
     float: left;
     width: 50%;
-    text-align: center;
     height: 80px;
-    border-top: 5px solid #252525;
 }
 
 #footer_right {
-    background-color: #492500;
+    background-color: #35251a;
     height: 80px;
     float: right;
     width: 50%;
-    text-align: center;
-    border-top: 5px solid #252525;
 }
 
 #footer_left p {
-    padding-top: 10px;
+    padding-top: 14px;
 }
 
 #footer_right p {
-    padding-top: 18px;
+    padding-top: 22px;
 }
 
 /* Responsive styling for the Footer */
