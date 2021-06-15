@@ -213,6 +213,7 @@ a {
     width: 80vw;
     max-width: 1000px;
     margin: auto;
+    height: auto;
 }
 
 .top_box_row {
@@ -245,11 +246,6 @@ a {
 .white_color_box {
     background-color: #ffffff;
 }
-
-
-
-
-
 
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
