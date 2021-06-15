@@ -168,7 +168,7 @@ header {
     display: inline-block;
 }
 
-#welcome_about_me h1, .left_side_box h1, .right_side_box h1 {
+#welcome_about_me h1, .left_side_box h1, .right_side_box h1, .top_left_box h1, .top_right_box h1 {
     padding: 5px 0;
 }
 
@@ -180,19 +180,18 @@ header {
     color: #ffffff;
 }
 
-#welcome_about_me li, .left_side_box li, .right_side_box li{
+#welcome_about_me li, .left_side_box li, .right_side_box li, .top_left_box li, .top_right_box li {
     list-style: none;
     line-height: 150%;
     font-size: 16px;
     padding: 0 10px;
 }
 
-
 a {
     color: #ffffff;
 }
 
-#welcome_about_me a, .left_side_box a, .right_side_box a {
+#welcome_about_me a, .left_side_box a, .right_side_box a, .top_left_box a, .top_right_box a{
     text-decoration: none;
     font-size: 16px;
     border-radius: 12px;
@@ -210,24 +209,31 @@ a {
     background-color: #492500;
 }
 
-.box_row {
+.box_row, .top_box_row {
     width: 80vw;
     max-width: 1000px;
     margin: auto;
 }
 
-.left_side_box, .right_side_box {
+.top_box_row {
+    margin-top: 5vh;
+}
+
+.left_side_box, .right_side_box, .top_left_box, .top_right_box {
     width: 50%;
     text-align: center;
-    border-top: 5px solid #252525;
     padding: 10px 0;
 }
 
-.left_side_box {
+.left_side_box, .right_side_box {
+    border-top: 5px solid #252525;
+}
+
+.left_side_box, .top_left_box {
     float: left;
 }
 
-.right_side_box {
+.right_side_box, .top_right_box {
     float: right;
 }
 
@@ -240,10 +246,15 @@ a {
     background-color: #ffffff;
 }
 
+
+
+
+
+
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
     body {
-    background: #0d700d;
+    background: #492500;
     }
 
     .about_me_box {
