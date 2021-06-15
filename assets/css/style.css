@@ -180,11 +180,18 @@ header {
     color: #ffffff;
 }
 
-#welcome_about_me li, .left_side_box li, .right_side_box li, .top_left_box li, .top_right_box li {
+#welcome_about_me li, .left_side_box li, .right_side_box li {
     list-style: none;
-    line-height: 150%;
     font-size: 16px;
+    line-height: 150%;
     padding: 0 10px;
+}
+
+.top_right_box li, .top_left_box li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 175%;
+    padding: 0 20px;
 }
 
 a {
@@ -218,16 +225,18 @@ a {
 
 .top_box_row {
     margin-top: 5vh;
+    background: #0d700d;
+    overflow: hidden;
 }
 
 .left_side_box, .right_side_box, .top_left_box, .top_right_box {
     width: 50%;
-    text-align: center;
     padding: 10px 0;
 }
 
 .left_side_box, .right_side_box {
     border-top: 5px solid #252525;
+    text-align: center;
 }
 
 .left_side_box, .top_left_box {
@@ -246,6 +255,26 @@ a {
 .white_color_box {
     background-color: #ffffff;
 }
+
+.top_left_box h1, .top_right_box h1 {
+    text-align: center;
+}
+
+.top_left_box h2 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.top_left_box p {
+    text-align: justify;
+    padding: 5px 30px;
+}
+
+.top_right_box h1 {
+    padding-bottom: 20px;
+}
+
 
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
