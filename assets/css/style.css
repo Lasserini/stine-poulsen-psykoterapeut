@@ -173,7 +173,7 @@ header {
 }
 
 #welcome_about_me h1 {
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 .green_color_box h1 {
@@ -278,38 +278,35 @@ a {
 }
 
 /* Footer Styling */
-footer {
-    position: absolute;
-    bottom: 0;
-    background-color: #492500;
-    width: 100vw;
-    height: 80px;
-}
-
-footer, footer h1, #footer_left p {
+.footer {
+    width: 80vw;
+    max-width: 1000px;
+    margin: auto;
     color: #ffffff;
 }
 
-footer li {
-    list-style: none;
-}
-
 #footer_left {
+    background-color: #492500;
     float: left;
-    width: 33%;
+    width: 50%;
+    text-align: center;
+    height: 80px;
+    border-top: 5px solid #252525;
 }
 
 #footer_right {
+    background-color: #492500;
+    height: 80px;
     float: right;
-    width: 33%;
-    text-align: right;
-}
-
-#footer_ center {
-    width: 33%;
-    margin: auto;
-}
-
-#footer_center p {
+    width: 50%;
     text-align: center;
+    border-top: 5px solid #252525;
+}
+
+#footer_left p {
+    padding-top: 10px;
+}
+
+#footer_right p {
+    padding-top: 18px;
 }
