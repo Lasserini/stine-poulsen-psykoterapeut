@@ -357,17 +357,17 @@ a {
     color: #ffffff;
     text-align: center;
     font-size: 14px;
+    background-color: #35251a;
+    overflow: hidden;
 }
 
 #footer_left {
-    background-color: #35251a;
     float: left;
     width: 50%;
     height: 80px;
 }
 
 #footer_right {
-    background-color: #35251a;
     height: 80px;
     float: right;
     width: 50%;
