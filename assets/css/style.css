@@ -337,8 +337,15 @@ a {
 
 /* Responsive Styling to ensure smooth transition between screensizes on the Individual Therapy page */
 @media screen and (min-width: 801px) and (max-width: 870px) {
-    #experience_about_me_button {
+    #individual_experience_button {
         margin: 32px auto;
+    }
+}
+
+/* Responsive Styling to ensure smooth transition between screensizes on the Couples Therapy page */
+@media screen and (min-width: 801px) and (max-width: 980px) {
+    #couples_experience_button {
+        margin: 53px auto;
     }
 }
 
