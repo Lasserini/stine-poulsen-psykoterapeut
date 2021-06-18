@@ -199,7 +199,7 @@ a {
     color: #ffffff;
 }
 
-#welcome_about_me a, .left_side_box a, .right_side_box a, .top_left_box a, .top_right_box a{
+#welcome_about_me a, .left_side_box a, .right_side_box a, .top_left_box a, .top_right_box a, .about_me_box a{
     text-decoration: none;
     font-size: 16px;
     border-radius: 12px;
@@ -292,9 +292,9 @@ a {
     padding-bottom: 5px;
 }
 
-
-
-
+#profile_text_box p {
+    padding-bottom: 10px;
+}
 
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
