@@ -8,18 +8,6 @@
     border: none;
 }
 
-
-
-/* Color bank
-New Green: #0f352d;
-New footer Brown: #35251a;
-
-Old Green: #0d700d;
-Old Brown: #492500;
-
-For now checkmarks & hover are left at old green
-*/
-
 /* Body styling, general rules, scaleable background image etc */
 body {
     background: #35251a url(..//images/background_image.jpg) center center / cover no-repeat fixed;
@@ -288,6 +276,26 @@ a {
     padding-bottom: 20px;
 }
 
+
+/* Styling for Content Boxes on the About Me page */
+#profile_text_box {
+    padding: 20px;
+}
+
+#profile_text_box h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#profile_text_box h2 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
     body {
@@ -392,3 +400,17 @@ a {
         position: unset;
     }
 }
+
+
+
+
+
+/* Color bank
+New Green: #0f352d;
+New footer Brown: #35251a;
+
+Old Green: #0d700d;
+Old Brown: #492500;
+
+For now checkmarks & hover are left at old green
+*/
