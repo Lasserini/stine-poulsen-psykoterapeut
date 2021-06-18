@@ -159,7 +159,7 @@ header {
     background-color: #ffffff;
 }
 
-.about_me_box img {
+#profile_photo {
     display: inline-block;
     vertical-align: top;
     height: 100%;
@@ -294,6 +294,12 @@ a {
     padding-bottom: 10px;
 }
 
+#profile_photo_large {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
     body {
@@ -308,7 +314,7 @@ a {
         text-align: center;
     }
 
-    .about_me_box img {
+    #profile_photo {
         display: none;
     }
 
@@ -352,6 +358,13 @@ a {
 @media screen and (min-width: 801px) and (max-width: 980px) {
     #couples_experience_button {
         margin: 53px auto;
+    }
+}
+
+/* Responsive Styling to hide the Profile Photo on the About_me page on large screens */
+@media screen and (min-width: 801px) {
+    #profile_photo_large {
+        display: none;
     }
 }
 
