@@ -268,14 +268,12 @@ a {
 }
 
 .top_left_box p {
-    text-align: justify;
     padding: 5px 25px;
 }
 
 .top_right_box h1 {
     padding-bottom: 20px;
 }
-
 
 /* Styling for Content Boxes on the About Me page */
 #profile_text_box {
@@ -334,7 +332,7 @@ a {
         border-top: 5px solid #252525;
     }
 
-    .top_right_box li, .top_left_box li {
+    .top_right_box li, .top_left_box {
         text-align: center;
     }
 
