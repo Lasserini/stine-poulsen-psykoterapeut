@@ -169,7 +169,7 @@ header {
     display: inline-block;
 }
 
-#welcome_about_me h1, .left_side_box h1, .right_side_box h1, .top_left_box h1, .top_right_box h1 {
+#welcome_about_me h1, .left_side_box h1, .right_side_box h1, .top_left_box h1, .top_right_box h1, .full_width_box h1 {
     padding: 5px 0;
 }
 
@@ -217,7 +217,7 @@ a {
     background-color: #0d700d;
 }
 
-.box_row, .top_box_row {
+.box_row, .top_box_row, .full_width_box {
     width: 80vw;
     max-width: 1000px;
     margin: auto;
@@ -257,7 +257,7 @@ a {
     background-color: #ffffff;
 }
 
-.top_left_box h1, .top_right_box h1 {
+.top_left_box h1, .top_right_box h1, .full_width_box h1 {
     text-align: center;
 }
 
@@ -282,7 +282,7 @@ a {
 
 #profile_text_box h1 {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #profile_text_box h2 {
@@ -298,6 +298,22 @@ a {
     width: 100%;
     height: auto;
     padding-bottom: 10px;
+}
+
+.full_width_box {
+    border-top: 5px solid #252525;
+    padding: 10px 0;
+}
+
+.full_width_box ul {
+    padding: 10px 0;
+}
+
+.full_width_box li {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0 20px;
 }
 
 /* Responsive Styling for Content Boxes */
@@ -326,7 +342,7 @@ a {
         padding-left: 0;
     }
 
-    .box_row, .top_box_row {
+    .box_row, .top_box_row, .full_width_box {
         width: 100%;
         margin: 0;
     }
