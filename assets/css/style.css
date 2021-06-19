@@ -1,4 +1,4 @@
-/* Import from Google Fonts. Oswald for headings, Roboto for paragrahps */
+/* Import from Google Fonts. Roboto as the main font and Oswald for headings */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
 /* Margin, padding and border defauls changed to 0 and none as defaults */
@@ -8,7 +8,10 @@
     border: none;
 }
 
-/* Body styling, general rules, scaleable background image etc */
+/* 
+Body styling, general rules, scaleable background image etc
+The background image code is heavily inspired by https://www.webfx.com/blog/web-design/responsive-background-image/
+*/
 body {
     background: #35251a url(..//images/background_image.jpg) center center / cover no-repeat fixed;
     font-family: Roboto, sans-serif;

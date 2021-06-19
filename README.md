@@ -11,25 +11,25 @@ The site was build as part of a Diploma in Software Development course at Code I
 
 ## User Experience (UX)
 
-### 1.1 Project Introduction
+### 1.1 Project introduction
 A website for a client with a secondary job/business as a Psychotherapist. The purpose of the website is to provide potential customers with information about the therapy sessions on offer, and to incorporate call-to-actions to ensure bookings of sessions.
 The Psychotherapist is experiencing an increased demand from her customers to have a place with easily accessible information about both her and of her services. The aim of the website is to fullfill this demand.
 
-### 1.2 Design Guidelines
+### 1.2 Design guidelines
 The Psychotherapist deals a lot with clients who approach her with highly sensitive and deep issues, for example incest, addictions and victims of rape. To accommodate this, the website design needs to be calm, soothing and confidence building.
 In our meeting regarding design ideas, the psychotherapist expressed a desire to draw upon the calmness of a forest.
 
-### 1.3 Project Goals
+### 1.3 Project goals
 - Provide well structured information about the Psychotherapist and her services.
 - Structure the information in a manner that takes 3 distinct user types into account.
 - Make contact information readily available throughout the site.
 
-### 1.4 Target Audience
+### 1.4 Target audience
 The website is aimed at people searching for a Psychotherapist or a Gestalttherapist who offers services in Copenhagen or Jægerspris. The current clients of the business are a fairly even mix of both sexes, and spans ages from late teenagers till pensioners.
  
 My client has identified 3 different user types, whom she needs the website design to accommodate for.
 
-- **Returning Clients**<br> 
+- **Returning clients**<br> 
     Someone who has used her services before. They would primarily be visiting the website to find contact information.<br>
     **Needs**: A quick path to contact information.<br>
     **Goal**: Provide easy access to methods of contacting the Psychotherapist.<br>
@@ -47,7 +47,6 @@ The Psychotherapist has colleagues with an overflow of clients, whom they refer 
     **Goal**: Provide clear overview of products offered, and easy navigation paths to further information, whether that be the Psychotherapists Resumé, pricing or contact information.<br>
     **How**: Provide a Welcome Page with a clean overview of services offered and easy navigation to further information about the Psychotherapist. 
 
-
 ### 1.5 User stories
 
 Case 1 - **Returning Customer** <br>
@@ -56,7 +55,6 @@ The user is a returning client, visiting the website to find contact information
 *User story*:
 - On the index page the user finds the clearly distinguishable Contact navigation link in the header and clicks it to navigate to the contact information.<br>
 - Once there they are given information about how to contact the Psychotherapist via telephone, and provided with a secondary option of filling in a contact formular.
-
 
 Case 2 - **Referred customer looking for an individual therapy session** <br>
 *Description*: <br>
@@ -82,15 +80,17 @@ The user found the website on Google whilst searching for a Psychotherapist with
 
 
 
-### Design
+### 1.6 Design
 -   #### Colour Scheme
-    -   The two main colours used are Code Insititue red, and white.
+    -   The main colours used are green, white and a dash of brown. These colours are chosen to accomodate for my clients wishes of a calm foresty inspired theme.
 -   #### Typography
-    -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
--   #### Images
-    -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    -   The Roboto font is the main font used with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Oswald is used for headings, also with Sand Serif as fallback.
 
-*   ### Wireframes
+-   #### Images
+    -   On larger devices a background image of a forest is used to enhance the calm forest theme. 
+    -   For the rest of the website design imagery is kept at a minumum and limited to displaying a profile photo of the psychotherapist. This is done with the intend to produce a calm site appereance that respects the serious subject matter.
+
+*   ### Wireframes  [NEEED UPDATING]
 
     -   Home Page Wireframe - [View](https://github.com/)
 
@@ -98,40 +98,51 @@ The user found the website on Google whilst searching for a Psychotherapist with
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
-## Features
+## 2. Features
+### 2.1 Current Features
+*   General   
+    - A colour scheme & box design thats consistent throughout the page.
+    - Responsive on all device sizes.
+    - Intuitive internal site navigation, with a responsive navigation menu in the header, and a large amount of buttons intended to help the user with easy navigation to the information they seek.
+    - A design that remembers the end goal, i.e. the user actually making contact to book a therapy session. Contact information is repeated through out the site, its present in the footer and the contact button in the navigation menu has a Font Awesome Icon added to make it stand out.
 
--   Responsive on all device sizes
+*   Feedback to the user   
+    - A hover effect in the navigation menu that changes colour and adds a strong underlining.
+    - A hover effect on the small screen hamburger nav bars that changes colour and increases its size.
+    - A hover effect on all buttons with internal site navigation.
+    - [FORMULAR FEEDBACK]
 
--   Interactive elements
+### 2.2 Futures left to implement 
+- Make the Contact Formular work. It needs to send the data to the psychotherapists email, and should also sent a confirmation email to the user.
+- Add a section with reviews, and perhaps also referrals from colleagues.
+- Translate website to danish
+- Support client in finding a domain and hosting service to get the site up and running
 
-## Technologies Used
+## 3. Technologies Used
 
-### Languages Used
+### 3.1 Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the Roboto and Oswald fonts used throughout the site.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Font Awesome was used to add icons for visual and user experience (UX) purposes.
+1. [Gitpod](https://gitpod.io/)
+    - Gitpod was used to develop the website.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
+    - GitHub is used to store the projects code after being pushed from Git. And to host the project.
+1. [Image Resizer:](https://imageresizer.com/)
+    - Image Resizer was used to resizing images and edit profile photos for the website.
+1. [Balsamiq:](https://balsamiq.com/) [MAKE SURE TO UPDATE]
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
+
+
+////
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -222,14 +233,6 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
 ### Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
@@ -260,21 +263,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+- The full-screen background image code is heavily inspired by this [WebFx post](https://www.webfx.com/blog/web-design/responsive-background-image/)
+- Inspiration on how to develop a responsive drop down navigation menu for small screen sizes was taken from this [MarkUpTag post](https://www.markuptag.com/responsive-navbar-with-html-css-without-bootstrap/)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
--   All Images were created by the developer.
+- The logo photo and the profile photos are taken by Photographer Katja Anna Frederiksen.
+- The background image is an open source photo from [Pexels.com profile Picabay](https://www.pexels.com/@pixabay). Thank you.
 
 ### Acknowledgements
 
