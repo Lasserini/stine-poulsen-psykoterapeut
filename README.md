@@ -266,8 +266,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - The full-screen background image code is heavily inspired by this [WebFx post](https://www.webfx.com/blog/web-design/responsive-background-image/)
 - Inspiration on how to develop a responsive drop down navigation menu for small screen sizes was taken from this [MarkUpTag post](https://www.markuptag.com/responsive-navbar-with-html-css-without-bootstrap/)
 
-
-
 ### Content
 
 -   All content was written by the developer.
@@ -279,6 +277,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+- My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+- Psychotherapist Stine Poulsen for the collaboration on design goals, and for providing danish version on the sites content.
+
+- Code Institute for providing me with the know-how of basic HTML & CSS necessary to complete this course.
