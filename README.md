@@ -76,13 +76,10 @@ The user found the website on Google whilst searching for a Psychotherapist with
 - The solid background of the Psychotherapist provides the user with confidence of her credibility, and the user identifies the sought after therapy form in the header navigation bar and finds more treatment specific information there.
 
 
-  /// NÅET HERTIL, FREDAG.
-
-
-
 ### 1.6 Design
 -   #### Colour Scheme
     -   The main colours used are green, white and a dash of brown. These colours are chosen to accomodate for my clients wishes of a calm foresty inspired theme.
+
 -   #### Typography
     -   The Roboto font is the main font used with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Oswald is used for headings, also with Sand Serif as fallback.
 
@@ -90,10 +87,15 @@ The user found the website on Google whilst searching for a Psychotherapist with
     -   On larger devices a background image of a forest is used to enhance the calm forest theme. 
     -   For the rest of the website design imagery is kept at a minumum and limited to displaying a profile photo of the psychotherapist. This is done with the intend to produce a calm site appereance that respects the serious subject matter.
 
-*   ### Wireframes  [NEEED UPDATING]
-
-   
-
+*   ### Wireframes
+    Desktop 800px+ | Smaller Decices Below 800px
+    --- | --- |
+    <a href="wireframes/desktop/index_desktop.pgn">Index</a> | <a href="wireframes/mobile/index_mobile.pgn">Index</a> 
+    <a href="wireframes/desktop/individual_desktop.pgn">Individual Therapy</a> | <a href="wireframes/mobile/individual_mobile.pgn">Individual Therapy</a>
+    <a href="wireframes/desktop/couples_desktop.pgn">Couples Therapy</a> | <a href="wireframes/mobile/couples_mobile.pgn">Couples Therapy</a>
+    <a href="wireframes/desktop/about_me_desktop.pgn">About Me</a> | <a href="wireframes/mobile/about_me_mobile.pgn">About Me</a>
+    <a href="wireframes/desktop/price_desktop.pgn">Price</a> | <a href="wireframes/mobile/price_mobile.pgn">Price</a>
+    <a href="wireframes/desktop/contact_desktop.pgn">Contact</a> | <a href="wireframes/mobile/contact_mobile.pgn">Contact</a>
 
 ## 2. Features
 ### 2.1 Current Features
@@ -134,7 +136,8 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - GitHub is used to store the projects code after being pushed from Git. And to host the project.
 1. [Image Resizer:](https://imageresizer.com/)
     - Image Resizer was used to resizing images and edit profile photos for the website.
-
+1. [Balsamic:](https://balsamiq.com/)
+    - Balsamiq was used during the design process to create Wireframes.
 
 
 
