@@ -1,6 +1,6 @@
 <h1 align="center">Psychotherapist Stine Poulsen Website</h1>
 
-<h2 align="center"><img src=" [https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/screenshots/index_desktop_screenshot.png]"></h2>
+<h2 align="center"><img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/readme_files/index_desktop_screenshot.png" ></h2>
 
 This website is a template for producing a marketing site for Danish Psychotherapist Stine Poulsen. It provides a clear overview of her main services, explains her therapeutic methods and contact options for scheduling appointments.
 
@@ -8,6 +8,8 @@ The site was build as part of a Diploma in Software Development course at Code I
 
 [Visit the deployed website](https://lasserini.github.io/stine-poulsen-psykoterapeut/)
 
+
+https://github.com/fernandagil/ms1-nonnapepita-restaurant/raw/master/readme-files/amiresponsive.png
 
 ## User Experience (UX)
 
