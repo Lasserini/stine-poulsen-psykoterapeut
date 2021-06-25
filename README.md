@@ -90,12 +90,13 @@ The user found the website on Google whilst searching for a Psychotherapist with
 *   ### Wireframes
     Desktop 800px+ | Smaller Decices Below 800px
     --- | --- |
-    <a href="wireframes/desktop/index_desktop.pgn">Index</a> | <a href="wireframes/mobile/index_mobile.pgn">Index</a> 
-    <a href="wireframes/desktop/individual_desktop.pgn">Individual Therapy</a> | <a href="wireframes/mobile/individual_mobile.pgn">Individual Therapy</a>
-    <a href="wireframes/desktop/couples_desktop.pgn">Couples Therapy</a> | <a href="wireframes/mobile/couples_mobile.pgn">Couples Therapy</a>
-    <a href="Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/about_me_desktop.png">About Me</a> | <a href="wireframes/mobile/about_me_mobile.pgn">About Me</a>
-    <a href="wireframes/desktop/price_desktop.pgn">Price</a> | <a href="wireframes/mobile/price_mobile.pgn">Price</a>
-    <a href="wireframes/desktop/contact_desktop.pgn">Contact</a> | <a href="wireframes/mobile/contact_mobile.pgn">Contact</a>
+    <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/index_desktop.png">Index</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/index_mobile.png">Index</a> 
+    <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/individual_desktop.png">Individual Therapy</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/individual_mobile.png">Individual Therapy</a>
+    <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/couples_desktop.png">Couples Therapy</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/couples_mobile.png">Couples Therapy</a>
+    <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/about_me_desktop.png">About Me</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/about_me_mobile.png">About Me</a>
+    <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/price_desktop.png">Price</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/price_mobile.png">Price</a>
+    <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/contact_desktop.png">Contact</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/contact_mobile.png">Contact</a>
+
 
 ## 2. Features
 ### 2.1 Current Features
