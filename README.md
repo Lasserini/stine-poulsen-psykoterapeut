@@ -93,7 +93,7 @@ The user found the website on Google whilst searching for a Psychotherapist with
     <a href="wireframes/desktop/index_desktop.pgn">Index</a> | <a href="wireframes/mobile/index_mobile.pgn">Index</a> 
     <a href="wireframes/desktop/individual_desktop.pgn">Individual Therapy</a> | <a href="wireframes/mobile/individual_mobile.pgn">Individual Therapy</a>
     <a href="wireframes/desktop/couples_desktop.pgn">Couples Therapy</a> | <a href="wireframes/mobile/couples_mobile.pgn">Couples Therapy</a>
-    <a href="wireframes/desktop/about_me_desktop.pgn">About Me</a> | <a href="wireframes/mobile/about_me_mobile.pgn">About Me</a>
+    <a href="Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/about_me_desktop.png">About Me</a> | <a href="wireframes/mobile/about_me_mobile.pgn">About Me</a>
     <a href="wireframes/desktop/price_desktop.pgn">Price</a> | <a href="wireframes/mobile/price_mobile.pgn">Price</a>
     <a href="wireframes/desktop/contact_desktop.pgn">Contact</a> | <a href="wireframes/mobile/contact_mobile.pgn">Contact</a>
 
