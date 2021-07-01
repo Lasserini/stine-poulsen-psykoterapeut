@@ -333,6 +333,14 @@ a {
         text-align: center;
     }
 
+    #profile_text_box {
+        text-align: left;
+    }
+
+    #profile_text_box h2 {
+        text-align: center;
+    }
+
     #profile_photo {
         display: none;
     }
@@ -384,6 +392,13 @@ a {
 @media screen and (min-width: 801px) {
     #profile_photo_large {
         display: none;
+    }
+}
+
+/* Responsive Styling for the Profile Photo on the About_me page */
+@media screen and (max-width: 800px) {
+    #profile_photo_large {
+        margin-top: 10px;
     }
 }
 
