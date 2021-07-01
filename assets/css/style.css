@@ -274,7 +274,7 @@ a {
     padding: 5px 25px;
 }
 
-.top_right_box h1 {
+.experience_box h1 {
     padding-bottom: 20px;
 }
 
@@ -317,6 +317,19 @@ a {
     font-size: 16px;
     margin-bottom: 10px;
     padding: 0 20px;
+}
+
+/* Additional Styling for Content Boxes on Price Page */
+#top_row_price {
+    text-align: center;
+}
+
+#psykiatrifonden_link {
+    margin: 9px auto 3px;
+}
+
+#info_contact_link {
+    margin: 11px auto 4px;
 }
 
 /* Responsive Styling for Content Boxes */
