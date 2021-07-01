@@ -407,6 +407,16 @@ a {
     }
 }
 
+/* Responsive Styling to set Navigation Buttons on Price page back to default margin size for small screens */
+@media screen and (max-width: 800px) {
+    #psykiatrifonden_link {
+        margin: 15px auto;
+    }
+    #info_contact_link {
+        margin: 15px auto;
+    }
+}
+
 /* Footer Styling */
 .footer {
     width: 80vw;
