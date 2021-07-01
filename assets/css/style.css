@@ -332,6 +332,11 @@ a {
     margin: 11px auto 6px;
 }
 
+/* Additional Styling for Context Boxes on Contact Page */
+#contact_price_link {
+    margin: 11px auto 6px;
+}
+
 /* Responsive Styling for Content Boxes */
 @media screen and (max-width: 800px) {
     body {
@@ -407,12 +412,9 @@ a {
     }
 }
 
-/* Responsive Styling to set Navigation Buttons on Price page back to default margin size for small screens */
+/* Responsive Styling to set Navigation Buttons on Price & Contact pages back to default margin size for small screens */
 @media screen and (max-width: 800px) {
-    #psykiatrifonden_link {
-        margin: 15px auto;
-    }
-    #info_contact_link {
+    #psykiatrifonden_link, #info_contact_link, #contact_price_link {
         margin: 15px auto;
     }
 }
