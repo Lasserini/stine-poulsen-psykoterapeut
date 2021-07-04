@@ -34,7 +34,7 @@ i {
 }
 
 li i {
-    color: #0d700d;
+    color: #159D15;
     padding-right: 5px;
 }
 
@@ -81,7 +81,7 @@ header {
 }
 
 .header_nav a:hover {
-    color: #0d700d;
+    color: #159D15;
     border-bottom: 2px solid #3a3a3a;
 }
 
@@ -105,7 +105,7 @@ header {
 }
 
 #small_screen_toggle:hover, #small_screen_hide:hover {
-    color: #0d700d;
+    color: #159D15;
     font-size: 120%;
 }
 
@@ -213,11 +213,11 @@ a {
 }
 
 #welcome_about_me a:hover, .white_color_box a:hover {
-    background-color: #0d700d;
+    background-color: #159D15;
 }
 
 .green_color_box a:hover {
-    background-color: #0d700d;
+    background-color: #159D15;
 }
 
 .box_row, .top_box_row, .full_width_box {
@@ -381,7 +381,7 @@ input, select, textarea {
 }
 
 #submit_button:hover {
-    background-color: #0d700d;
+    background-color: #159D15;
 }
 
 /* Responsive Styling for Content Boxes */
@@ -518,17 +518,3 @@ input, select, textarea {
         position: unset;
     }
 }
-
-
-
-
-
-/* Color bank
-New Green: #0f352d;
-New footer Brown: #35251a;
-
-Old Green: #0d700d;
-Old Brown: #492500;
-
-For now checkmarks & hover are left at old green
-*/
