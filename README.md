@@ -115,10 +115,10 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - [FORMULAR FEEDBACK]
 
 ### 2.2 Futures left to implement 
-- Make the Contact Formular work. It needs to send the data to the psychotherapists email, and should also sent a confirmation email to the user.
+- Make a clone of the website, translated into danish.
+- Make the Contact Formular work. It needs to send the data to the psychotherapists email.
+- Add stronger feedback to the user to indicate that the Contact Formular has been sent correctly.
 - Add a section with reviews, and perhaps also referrals from colleagues.
-- Translate website to danish
-- Support client in finding a domain and hosting service to get the site up and running
 
 ## 3. Technologies Used
 
@@ -141,7 +141,6 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - Image Resizer was used to resizing images and edit profile photos for the website.
 1. [Balsamic:](https://balsamiq.com/)
     - Balsamiq was used during the design process to create Wireframes.
-
 
 
 ////

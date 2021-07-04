@@ -78,32 +78,34 @@
             </p>
 
         </div>
-        <div class="top_right_box white_color_box">
+        <div class="top_right_box white_color_box" id="contact_form">
             <h1>Contact Formular</h1>
             <form action="mailto:placeholder@email.com" method="POST">
                 <fieldset>
-                    <legend><h2>Fill out the form to schedule a call</h2></legend>
-                    <label for=”name”>Full Name</label>
+                    <legend>Send form to schedule a call</legend>
+                    <label for=”name”>Full Name</label><br>
 	                <input id=”name” type=”text” placeholder="Your Name" required>
                     <br>
-                    <label for=”phone”>Phone Number</label>
+                    <label for=”phone”>Phone Number</label><br>
 	                <input id=”phone” type=”text” placeholder="Your Phone Number" required>
                     <br>
-                    <label for="inquiry_type">Type of Inquiry</label>
+                    <label for="inquiry_type">Type of Inquiry</label><br>
                     <select name="inquiry_type" id="inquiry_type">
                         <option value="placeholder">Select Type of Inquiry</option>
                         <option value="booking">Book Therapy Session</option>
-                        <option value="individual_therapy_q">Inquiry about Individual Therapy</option>
-                        <option value="couples_therapy_q">Inquiry about Couples Therapy</option>
-                        <option value="supervision_q">Inquiry about Supervision</option>
-                        <option value="group_supervision_q">Inquiry about Group Supervision</option>
-                        <option value="mental_first_aid_q">Inquiry about Mental First Aid</option>
-                        <option value="unknown">Question about Something Else?</option>
+                        <option value="individual_therapy_q">About Individual Therapy</option>
+                        <option value="couples_therapy_q">About Couples Therapy</option>
+                        <option value="supervision_q">About Supervision</option>
+                        <option value="group_supervision_q">About Group Supervision</option>
+                        <option value="mental_first_aid_q">About Mental First Aid</option>
+                        <option value="unknown">Other</option>
                     </select>
                     <br>
-                    <label for="question">Explain your Inquiry</label>
+                    <label for="question_input">Explain your Inquiry</label>
                     <br>
-                    <textarea name="question" id="question" placeholder="Questions? Booking a Session? Preferred time to recieve a call back from me?" rows=”10” cols=”25”></textarea>
+                    <textarea id="question_input" type=”text” placeholder="Questions? Booking a Session? Preferred time to recieve a call back from me?" rows="4"></textarea>
+                    <br>
+                    <input type="submit" value="Send Formular" id="submit_button">
                 </fieldset>
             </form>
         </div>
