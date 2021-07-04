@@ -10,7 +10,7 @@ The test was succesfull and did not report any issues.<br>
 <img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/css_validation.png">
 
 ### 1.2 HTML Validation
-The first attempt at HTML Validation gave a long list of various items that wasn't allowed in span containers.
+The first attempt at HTML Validation gave a long list of various items that wasn't allowed in span containers, those containers were changed to divs. Some fixes to the contact formular were also required.
 #### Index Page
 
 
