@@ -8,7 +8,7 @@ The site was build as part of a Diploma in Software Development course at Code I
 
 [Visit the deployed website](https://lasserini.github.io/stine-poulsen-psykoterapeut/)
 
-## User Experience (UX)
+## 1. User Experience (UX)
 
 ### 1.1 Project introduction
 A website for a client with a secondary job/business as a Psychotherapist. The purpose of the website is to provide potential customers with information about the therapy sessions on offer, and to incorporate call-to-actions to ensure bookings of sessions.
@@ -140,6 +140,10 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - Balsamiq was used during the design process to create Wireframes.
 1. [Responsive Design Checker:](https://www.responsivedesignchecker.com/)
     - Used in the testing process to check responsiveness on various devices.
+1. [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+    - Used to validate the HTML code.
+1. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate the CSS code.
 
 ## 4. Testing
 The testing process can be found [here.](https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/TESTING.md)
