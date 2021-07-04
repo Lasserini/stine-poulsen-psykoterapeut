@@ -8,9 +8,6 @@ The site was build as part of a Diploma in Software Development course at Code I
 
 [Visit the deployed website](https://lasserini.github.io/stine-poulsen-psykoterapeut/)
 
-
-https://github.com/fernandagil/ms1-nonnapepita-restaurant/raw/master/readme-files/amiresponsive.png
-
 ## User Experience (UX)
 
 ### 1.1 Project introduction
@@ -127,7 +124,7 @@ The user found the website on Google whilst searching for a Psychotherapist with
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used  [Double check at the end]
+### 3.2 Frameworks, Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the Roboto and Oswald fonts used throughout the site.
@@ -141,30 +138,15 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - Image Resizer was used to resizing images and edit profile photos for the website.
 1. [Balsamic:](https://balsamiq.com/)
     - Balsamiq was used during the design process to create Wireframes.
+1. [Responsive Design Checker:](https://www.responsivedesignchecker.com/)
+    - Used in the testing process to check responsiveness on various devices.
 
+## 4. Testing
+The testing process can be found [here.](https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/TESTING.md)
 
-////
-## Testing
+## 5. Deployment
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-
-### Testing User Stories from User Experience (UX) Section
-
-[ Add test information about the three defined target group user stories ]
-
-
-
-### Known Bugs
-
-
-
-
-## Deployment
-
-### GitHub Pages
+### 5.1 GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -176,7 +158,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-### Making a Local Clone
+### 5.2 Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
@@ -202,7 +184,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-## Credits
+## 6. Credits
 
 ### Code
 
