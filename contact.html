@@ -79,7 +79,33 @@
 
         </div>
         <div class="top_right_box white_color_box">
-            Contact Formular Goes Here
+            <h1>Contact Formular</h1>
+            <form action="mailto:placeholder@email.com" method="POST">
+                <fieldset>
+                    <legend><h2>Fill out the form to schedule a call</h2></legend>
+                    <label for=”name”>Full Name</label>
+	                <input id=”name” type=”text” placeholder="Your Name" required>
+                    <br>
+                    <label for=”phone”>Phone Number</label>
+	                <input id=”phone” type=”text” placeholder="Your Phone Number" required>
+                    <br>
+                    <label for="inquiry_type">Type of Inquiry</label>
+                    <select name="inquiry_type" id="inquiry_type">
+                        <option value="placeholder">Select Type of Inquiry</option>
+                        <option value="booking">Book Therapy Session</option>
+                        <option value="individual_therapy_q">Inquiry about Individual Therapy</option>
+                        <option value="couples_therapy_q">Inquiry about Couples Therapy</option>
+                        <option value="supervision_q">Inquiry about Supervision</option>
+                        <option value="group_supervision_q">Inquiry about Group Supervision</option>
+                        <option value="mental_first_aid_q">Inquiry about Mental First Aid</option>
+                        <option value="unknown">Question about Something Else?</option>
+                    </select>
+                    <br>
+                    <label for="question">Explain your Inquiry</label>
+                    <br>
+                    <textarea name="question" id="question" placeholder="Questions? Booking a Session? Preferred time to recieve a call back from me?" rows=”10” cols=”25”></textarea>
+                </fieldset>
+            </form>
         </div>
     </div>
 
