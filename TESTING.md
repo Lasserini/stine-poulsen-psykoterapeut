@@ -35,13 +35,13 @@ To test responsiveness across various devices & screensizes, I used [Responsive 
 
 Viewport | iPhone 5/5s<br>320x568 | Galaxy S5/S6/S/<br>360*640 | OnePlus 6T<br>412x892 | Ipad Mini<br>768x1012 | Custom Tablet<br>850x1200 | Desktop 1024px | Desktop 1440px
 --- | --- | --- | --- | --- | --- | --- | --- |
-Site responsive<br>at below 801px  | ? | ? | ? | ? | ? | ? | ?
-Site responsive<br>at 801px to 970px | n/a | n/a | n/a | ? | Good | Good | ?
-Site responsive<br>at above 970px | n/a | n/a | n/a | ? | Good | Good | ?
-Links functionality  | Good | ? | Good | ? | Good | Good | ?
-Navigation Menu  | Good | ? | Good | ? | Good | Good | ?
-Images | Good | ? | Good | ? | Good | Good | ?
-Renders as expected | Good | ? | Good | ? | Good | Good | ?
+Site responsive<br>at below 801px  | Ok | Good| Good | Good | n/a | n/a | n/a
+Site responsive<br>at 801px to 970px | n/a | n/a | n/a | n/a | Good | n/a | n/a
+Site responsive<br>at above 970px | n/a | n/a | n/a | n/a | n/a | Good | Good
+Links functionality  | Good | Good | Good | Good | ? | Good | Good
+Navigation Menu  | Decent | Good | Good | Good | ? | Good | Good
+Images | Good | Good | Good | Good | ? | Good | Good
+Renders as expected | Good | Good | Good | Good | ? | Good | Good
 
 
 ## 3. Browser Compatability
