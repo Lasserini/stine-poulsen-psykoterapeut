@@ -87,4 +87,4 @@ Green icon and hovor effect (#159D15) on dark green background (#0F352D)
 - **User Story:** <br>
 
 ## 5. Known Bugs
-- On devices with a viewport height below 500px there is an issue with the dropdown navigation menu. The menu is locked in place & doesn't scale, which causes an issue on the very smallest of phones. The fix will probably involve slightly reducing the space each list item in the menu occupy. Alternately a fix could involve scaling the menu size in accordance to viewport height, or a media query to address the problematic screen sizes.
+- On devices with a viewport height below 600px there is an issue with the dropdown navigation menu. The menu is locked in place & doesn't scale, which causes an issue on the very smallest of phones. The fix will probably involve slightly reducing the space each list item in the menu occupy. Alternately a fix could involve scaling the menu size in accordance to viewport height, or a media query to address the problematic screen sizes.

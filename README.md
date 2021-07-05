@@ -77,7 +77,7 @@ The user found the website on Google whilst searching for a Psychotherapist with
 
 ### 1.6 Design
 -   #### Colour Scheme
-    -   The main colours used are green, white and a dash of brown. These colours are chosen to accomodate for my clients wishes of a calm foresty inspired theme.
+    -   The main colours used are green(#0f352d), white (#ffffff) and a dash of brown (#35251a). These colours are chosen to accomodate for my clients wishes of a calm foresty inspired theme.
 
 -   #### Typography
     -   The Roboto font is the main font used with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Oswald is used for headings, also with Sand Serif as fallback.
@@ -87,7 +87,7 @@ The user found the website on Google whilst searching for a Psychotherapist with
     -   For the rest of the website design imagery is kept at a minumum and limited to displaying a profile photo of the psychotherapist. This is done with the intend to produce a calm site appereance that respects the serious subject matter.
 
 *   ### Wireframes
-    Desktop 800px+ | Smaller Decices Below 800px
+    Desktop 800px+ | Smaller Devices Below 800px
     --- | --- |
     <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/index_desktop.png">Index</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/index_mobile.png">Index</a> 
     <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/desktop/individual_desktop.png">Individual Therapy</a> | <a href="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/wireframes/mobile/individual_mobile.png">Individual Therapy</a>
@@ -109,7 +109,6 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - A hover effect in the navigation menu that changes colour and adds a strong underlining.
     - A hover effect on the small screen hamburger nav bars that changes colour and increases its size.
     - A hover effect on all buttons with internal site navigation.
-    - [FORMULAR FEEDBACK]
 
 ### 2.2 Futures left to implement 
 - Make a clone of the website, translated into danish.
@@ -172,13 +171,13 @@ The project was deployed to GitHub Pages using the following steps...
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/Lasserini/stine-poulsen-psykoterapeut
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/Lasserini/stine-poulsen-psykoterapeut
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
