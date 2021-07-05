@@ -74,9 +74,17 @@ Green icon and hovor effect (#159D15) on dark green background (#0F352D)
 - It fails the test for normal text & some large text. But the website only utilize the colors together for icons and UI effects.
 
 ## 5. Testing User Stories from User Experience (UX) Section
+### 5.1 Returning Customer
+- **Goal** Visiting the site for easy access to contact information.
+- **User Story:** <br>
+  
+### 5.2 Referred Client
+- **Goal** Visiting the site on the basis of a recommendation, needs easy path to information about the specific therapy they are looking for.
+- **User Story:** <br>
 
-[ Add test information about the three defined target group user stories ]
-
+### 5.3 First Time Visitor - Potential client looking for a Psychotherapist
+- **Goal** Potential client with no previous knowledge of the Psychotherapist. Need access to information about specific therapy forms, but also more in-depth about the Psychotherapist.
+- **User Story:** <br>
 
 ## 5. Known Bugs
 - On devices with a viewport height below 500px there is an issue with the dropdown navigation menu. The menu is locked in place & doesn't scale, which causes an issue on the very smallest of phones. The fix will probably involve slightly reducing the space each list item in the menu occupy. Alternately a fix could involve scaling the menu size in accordance to viewport height, or a media query to address the problematic screen sizes.
