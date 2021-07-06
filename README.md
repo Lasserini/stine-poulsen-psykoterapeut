@@ -47,8 +47,23 @@ The Psychotherapist has colleagues with an overflow of clients, whom they refer 
     **How**: Provide a Welcome Page with a clean overview of services offered and easy navigation to further information about the Psychotherapist. 
 
 ### 1.5 User stories
-
-
+- As an owner, I want to show my services and experience to attract more clients.
+- As an owner, I want to have an online presence for collegues to refer overflow clients to.
+- As an owner, I want returning customers to have an easy way of finding me again.
+- As a user, I want to easily find the Psychotherapists contact information.
+- As a user, I want to book a therapy session.
+- As a user, I want an alternative to having to make a phone call right now.
+- As a user, I want to know more about the Psychotherapist.
+- As a user, I want to know more about Gestalttherapy.
+- As a user, I want to read about the Individual Therapy sessions.
+- As a user, I want to read about the Couples Therapy sessions.
+- As a user, I want to know if the Psyhotherapist has experience with a specific issue/problem.
+- As a user, I want to know about the prices for the services on offer.
+- As a user, I want to find a supervisor.
+- As a group, we want to find a group supervisor.
+- As a user, I want to find more information about Mental First Aid courses.
+- As a user, I want to know how the Psychotherapist is applying Covid-19 precautions.
+- As a user, I want to cancel/change an appointment.
 
 ### 1.6 Design
 -   #### Colour Scheme
