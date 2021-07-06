@@ -48,31 +48,6 @@ The Psychotherapist has colleagues with an overflow of clients, whom they refer 
 
 ### 1.5 User stories
 
-Case 1 - **Returning Customer** <br>
-*Description*: <br> 
-The user is a returning client, visiting the website to find contact information in order to book further sessions.<br>
-*User story*:
-- On the index page the user finds the clearly distinguishable Contact navigation link in the header and clicks it to navigate to the contact information.<br>
-- Once there they are given information about how to contact the Psychotherapist via telephone, and provided with a secondary option of filling in a contact formular.
-
-Case 2 - **Referred customer looking for an individual therapy session** <br>
-*Description*: <br>
-A colleague to the Psychotherapist has referred a client to her and provided them with the website link. The client is looking for individual therapy sessions to talk about issues with addiction.<br>
-*User story*:
-- At the index page the user finds a photo of the Psychotherapist, along with some basic information about her. 
-- Below that, the user located the Individual Therapy section, reads the 3 headline pointers and clicks the “Read More” button which leads to a page dedicated to Individual therapy information. 
-- Once there the user is presented with information about how the Psychotherapist approaches Individual Therapy sessions, and with a section that highlights the Psychotherapist's areas of expertise/experience. 
-- The user notices that the Psychotherapist has experience with issues of addiction, and feels safer in trusting the service. 
-- Below the user can find information about pricing and contact information.
-
-Case 3 - **New customer looking for a Psychotherapist** <br>
-*Description*: <br>
-The user found the website on Google whilst searching for a Psychotherapist with sessions in Copenhagen. The user suffers from anxiety and requires more information about the Psychotherapist to feel confident in using her services.<br>
-*User story*:<br>
-- At the index page the user finds a photo of the Psychotherapist, along with some basic information about her and a “About Me” button.
-- The user takes note that there is a section labeled individual therapy, but wants to know more about the Psychotherapist before considering a session.
-- The user presses the “About Me” button and is taken to the “About Me” page, there the user proceeds to read the Psychotherapist's more lengthy description of herself and her therapeutic methods. Below the user can browse an overview of the Psychotherapists educational background and previous work experience.
-- The solid background of the Psychotherapist provides the user with confidence of her credibility, and the user identifies the sought after therapy form in the header navigation bar and finds more treatment specific information there.
 
 
 ### 1.6 Design
@@ -104,11 +79,60 @@ The user found the website on Google whilst searching for a Psychotherapist with
     - Responsive on all device sizes.
     - Intuitive internal site navigation, with a responsive navigation menu in the header, and a large amount of buttons intended to help the user with easy navigation to the information they seek.
     - A design that remembers the end goal, i.e. the user actually making contact to book a therapy session. Contact information is repeated through out the site, its present in the footer and the contact button in the navigation menu has a Font Awesome Icon added to make it stand out.
+    
+    <br>
+*   The Header includes:
+    - **Logo with a profile photo & the Psychotherapists name:** allows the user to clearly see what site they are visiting at any given moment.
+    - **Navigation Bar:** provides an easy and intuitive way for the user to navigate the site.
 
-*   Feedback to the user   
-    - A hover effect in the navigation menu that changes colour and adds a strong underlining.
-    - A hover effect on the small screen hamburger nav bars that changes colour and increases its size.
-    - A hover effect on all buttons with internal site navigation.
+    <br>
+*   The Footer includes:
+    - **Contact Information** a phone number is provided to ensure easy access for users wishing to make an inquiry over phone.
+    - **Location Information** provided to clearly display where the eventual Therapy Sessions would take place. Ensure user that the clinic is a viable option for them.
+    - **Site Design Information** provides information about the site designer & the photographer providing the profiles photos.
+
+The Header and Footer are consistent and located on every page in the site.
+*   The Welcome (Index) page includes:
+    - **A larger profile picture on large screens** to give the user a strong visual illustration of the Psychotherapist (for small screens this feature is applied on the About Me page instead, this is done for visual design purposes).
+    - **Box with key information** the very first thing a user comes across, displaying what services are on offer, where the clinic(s) are located and provides contact information. The box allows the user to quickly determine the relevance and hopefully provides assurance that the service might be worth considering. The box also offers a button to access more information about the Psychotherapist.
+    - **Individual Therapy information** allows the user a brief overview and easy access the content page for one of the two main services.
+    - **Couples Therapy information** allows the user a brief overview and easy access the content page for one of the two main services.
+    - **Contact Information** to allow the user easy access to the site's primary function, which is leading towards a call-to-action of the user actively making contact to book therapy sessions. Throughout the site the contact information is repeated to remind users of making contact. The box also has a link to the contact page which adds a secondary option for contacting the Psychotherapist.
+    - **Information about other services** allows the user brief introduction to the secondary services offered by the Psychotherapist, and provides a link to pricing information.
+
+    <br>
+*   The Individual Therapy page includes:
+    - **Introduction to Individual Therapy** allows the user insight to the Psychotherapists work methods and approach to the therapy.
+    - **List of the Psychotherapists Experience** allows the user to see what issues the Psychotherapist is experienced with.
+    - **Contact Information** a call-to-action.
+    - **Price and duration information** provides necessary support information for potential clients.
+
+    <br>
+*   The Couples Therapy page includes:
+    - **Introduction to Couples Therapy** allows the user insight to the Psychotherapists work methods and approach to the therapy.
+    - **List of the Psychotherapists Experience** allows the user to see what issues the Psychotherapist is experienced with.
+    - **Contact Information** a call-to-action.
+    - **Price and duration information** provides necessary support information for potential clients.
+
+    <br>
+*   The About Me page includes:
+    - **Introduction to the Psychotherapist and her approach to therapy** allows the user a more in-depth insight into the Psychotherapists work methods and approach to the therapy. And explains the style of therapy that the Psychotherapist is educated in, i.e. Gestalttherapy.
+    - **Lists of the Psychotherapists Education, Work Experience, Courses, Workshops & Supervision** allows the an in-depth view of the Psychotherapists professional foundations. The lists are included to ensure that potential clients has access to enough information to instill confidence in the Psychotherapists professional capeabilities.
+
+    <br>
+*   The Price page includes:
+    - **Information about session duration and prices** allows the user to see the cost of the different kinds of Therapy and Supervision, and provides session duration to make it clear what the price covers.
+    - **Internal site links to Individual & Couples Therapy pages** allows a user that wanted to check prices first a quick path back to more information about the actual therapy.
+    - **Mental First Aid Course Information** provides the user with a link to an external site that handles bookings and questions for this secondary service offered by the Psychotherapist. Allows a user interested in this service a quick path to further information about the course.
+    - **Payment information** allows the user to see which payment options is available, and information about the conditions for cancellations.
+    - **Covid-19 Precautions** allows the to see which measures the Psychotherapist has taken in regards to the ongoing pandemic. This feature is (hopefully) temporary. Also lists secondary options for alternative therapy sessions.
+
+        <br>
+*   The Contact page includes:
+    - **Phone Contact Information** provides the phone contact information yet again. This information is purposely repeated throughout the site, as the sites primary ambition is to increase the volume of phone calls with therapy session bookings. The section also adds examples of possible reasons for calling, intended to provide inspiration and also to highlight the any inquiry is very welcome.
+    - **A Contact Formular** provides the user a secondary method for contacting the Psychotherapist. Allows users that prefer this contact method an alternative to them having to make contact via phone.
+    - **Payment information** allows the user to see which payment options is available, and information about the conditions for cancellations.
+    - **Covid-19 Precautions** allows the to see which measures the Psychotherapist has taken in regards to the ongoing pandemic. This feature is (hopefully) temporary. Also lists secondary options for alternative therapy sessions.
 
 ### 2.2 Futures left to implement 
 - Make a clone of the website, translated into danish.
