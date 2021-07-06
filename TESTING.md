@@ -7,27 +7,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### 1.1 CSS Validation
 The test was succesfull and did not report any issues.<br>
-<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/css_validation.png">
+-> Insert fullsize screenshot of test result
 
 ### 1.2 HTML Validation
 The first attempt at HTML Validation gave a long list of various items that wasn't allowed in span containers, those containers were changed to divs. Some fixes to the contact formular were also required. Below is the result of the 2nd pass through the tests.
 #### Index Page
-<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/html_validation.png"><br>
+-> Insert fullsize screenshot of test result
 
 #### Individual Therapy Page
-<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/html_validation.png"><br>
+-> Insert fullsize screenshot of test result
 
 #### Couples Therapy Page
-<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/html_validation.png"><br>
+-> Insert fullsize screenshot of test result
 
 #### About Me Page
-  -> P error to fix.
+-> Insert fullsize screenshot of test result
 
 #### Price Page
-<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/html_validation.png"><br>
+-> Insert fullsize screenshot of test result
 
 #### Contact Page
-<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/html_validation.png"><br>
+ -> Insert fullsize screenshot of test result
 
 
 ## 2. Responsiveness
@@ -35,10 +35,10 @@ To test responsiveness across various devices & screensizes, I used [Responsive 
 
 Viewport | iPhone 5/5s<br>320x568 | Galaxy S5/S6/S/<br>360*640 | OnePlus 6T<br>412x892 | Ipad Mini<br>768x1012 | Ipad Pro<br>1366x1024 | Desktop 1024px | Desktop 1440px
 --- | --- | --- | --- | --- | --- | --- | --- |
-Site responsive<br>below 801px  | Ok | Good| Good | Good | n/a | n/a | n/a
+Site responsive<br>below 801px  | Good | Good| Good | Good | n/a | n/a | n/a
 Site responsive<br>above 800px | n/a | n/a | n/a | n/a | Good | Good | Good
 Links functionality  | Good | Good | Good | Good | Good | Good | Good
-Navigation Menu  | Minor<br>Issue | Good | Good | Good | Good | Good | Good
+Navigation Menu  | Good | Good | Good | Good | Good | Good | Good
 Images | Good | Good | Good | Good | Good | Good | Good
 Renders as expected | Good | Good | Good | Good | Good | Good | Good
 
@@ -77,6 +77,5 @@ Green icon and hovor effect (#159D15) on dark green background (#0F352D)
 
 
 ## 5. Known Bugs
-- On devices with a viewport height below 600px there is an issue with the dropdown navigation menu. The menu is locked in place & doesn't scale, which causes an issue on the very smallest of phones. The fix will probably involve slightly reducing the space each list item in the menu occupy. Alternately a fix could involve scaling the menu size in accordance to viewport height, or a media query to address the problematic screen sizes.
-- There was a validation issue on the about me page. The problem was identified as headings being used inside a paragraph. A restructuring of the content box fixed the issue.
-- 
+- On devices with a viewport height below 600px there is an issue with the dropdown navigation menu. The menu is locked in place & doesn't scale, which causes an issue on the very smallest of phones. Bugfix: Applied a change that makes the menu list items scale with viewport height.
+- There was a validation issue on the about me page. The problem was identified as headings being used inside a paragraph. Bugfix: A restructuring of the content box fixed the issue.
