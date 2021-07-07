@@ -7,27 +7,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### 1.1 CSS Validation
 The test was succesfull and did not report any issues.<br>
--> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/css_validation.png">
 
 ### 1.2 HTML Validation
 The first attempt at HTML Validation gave a long list of various items that wasn't allowed in span containers, those containers were changed to divs. Some fixes to the contact formular were also required. Below is the result of the 2nd pass through the tests.
 #### Index Page
--> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/index_validation.png">
 
 #### Individual Therapy Page
--> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/individual_validation.png">
 
 #### Couples Therapy Page
--> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/couples_validation.png">
 
 #### About Me Page
--> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/aboutme_validation.png">
 
 #### Price Page
--> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/price_validation.png">
 
 #### Contact Page
- -> Insert fullsize screenshot of test result
+<img src="https://github.com/Lasserini/stine-poulsen-psykoterapeut/blob/master/validation/contact_validation.png">
 
 
 ## 2. Responsiveness
