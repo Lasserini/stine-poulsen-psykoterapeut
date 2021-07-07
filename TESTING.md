@@ -46,9 +46,9 @@ Renders as expected | Good | Good | Good | Good | Good | Good | Good
 ## 3. Browser Compatability
 Browser -> | Chrome | Firefox | Edge | Safari | Opera | IE
 --- | --- | --- | --- | --- | --- | --- |
-Appearance  | Good | Good | Good | ? | Good | Good
-Responsiveness | Good | Good | Good | ? | Good | Good
-Functionality | Good | Good | Good | ? | Good | Good
+Appearance  | Good | Good | Good | Decent | Good | Good
+Responsiveness | Good | Good | Good | Good | Good | Good
+Functionality | Good | Good | Good | Good | Good | Good
 
 ## 4. Contrast Testing
 A test of colour contrast to ensure accessibility.
